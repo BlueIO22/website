@@ -1,0 +1,18 @@
+{
+    "program":{
+        "title": "Cardify",
+        "message": "Simple website to make powerful cards",
+        "lofoten": {
+          "title": "Lofoten",
+          "message": "Wonderful place in northern Norway!"
+        },
+        "sogn": {
+          "title": "Sogn of Fjordane",
+          "message": "Longest fjord in the world"
+        },
+        "song": {
+          "title": "Cornfield Chase",
+          "message": "Author: Hans Zimmer"
+        }
+  }
+}

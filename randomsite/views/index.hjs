@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/mdb.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light blue-grey lighten-5">
+      <a class="navbar-brand">{{ program.title }}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link">Cards</a>
+           </li>
+         </ul>
+        </div>
+    </nav>
+
+
+
+
+    <h1>{{program.title}}</h1>
+    <p class="label label-default">{{program.message}}</p>
+    <div class="container-fluid">
+      <div class="card" style="width: 40%;">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4bebf835180741.56ec6875d7a5b.jpg" class="img-fluid" alt="">
+        <div class="card-body">
+          <h4 class="card-title">{{program.lofoten.title}}</h4>
+          <p class="card-text">{{program.lofoten.message}}</p>
+
+
+        </div>
+        <div class="card-footer">
+          <div style="text-align: center">
+            <a href="#" class="btn btn-outline-purple">Se meir!</a></div>
+        </div>
+  </div>
+
+  <div class="card" style="height: 100%; width: 45%; margin:0;float: right;">
+    <img src="https://www.stortinget.no/contentassets/2164741ccf7f40999afa77d1ae9144d1/sogn-og-fjordane-foto-rolf-m-soerensen840.jpg" class="img-fluid" alt="">
+    <div class="card-body" >
+      <h4 class="card-title">{{program.sogn.title}}</h4>
+      <p class="card-text">{{program.sogn.message}}</p>
+    </div>
+  </div>
+
+  <div class="card" style="height: 20%; width: 30%; margin:0;float: right;">
+    <img src="https://img00.deviantart.net/0907/i/2014/330/b/b/interstellar_soundtrack_turkish_album_artwork_by_feradm-d87q5jf.jpg" class="img-fluid" alt="">
+    <div class="card-body" >
+      <h4 class="card-title">{{program.song.title}}</h4>
+      <p class="card-text">{{program.song.message}}</p>
+    </div>
+
+    <div class="card-footer">
+      <div style="text-align: center">
+        <a href="#" class="btn btn-outline-purple">Se meir!</a></div>
+    </div>
+  </div>
+</div>
+
+  </body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="public/js/bootstrap.js"></script>
+<script type="text/javascript" src="public/js/mdb.js"></script>
+
+</html>
